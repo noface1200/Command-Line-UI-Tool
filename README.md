@@ -1,3 +1,5 @@
+First of all in the console navigate to the folder containing requirements.txt and run the command  ```pip install -r requirements.txt```
+
 Ensure the clui folder is in the same directory as your Python script. This allows you to import the module without any issues.
 ```
 /my_project
