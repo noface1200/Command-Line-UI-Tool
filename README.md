@@ -39,7 +39,7 @@ data = {
     'Cherry': [30, 35]
 }
 
-table_output = cli.data_table(data, headers=['Fruit', 'Quantity'])
+table_output = cli.data_table(data, headers=['Fruit', 'Quantity', 'Cost'])
 print(table_output)
 ```
 
