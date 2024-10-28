@@ -52,9 +52,12 @@ cli.clear_console()
 
 # Create fire-faded ASCII art with the "blood" font
 text = "Hello world"
-ascii_art = cli.ascii(text, font='blood')
-faded_ascii_art = cli.fadet(ascii_art, fadetype='fire')
+ascii_art = cli.ascii(text, font='bloody')
+faded_ascii_art = cli.fadet(ascii_art, fadetype='purplepink')
 
 # Print the result
 print(faded_ascii_art)
 ```
+
+big thanks too venaxyt for creating fade. the color gradient tool used in this repo
+note: you can find all working color schemes for the fadet function at https://github.com/venaxyt/fade
