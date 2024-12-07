@@ -59,5 +59,5 @@ faded_ascii_art = cli.fadet(ascii_art, fadetype='purplepink')
 print(faded_ascii_art)
 ```
 
-big thanks too venaxyt for creating fade. the color gradient tool used in this repo
+credits to venaxyt for creating fade. the color gradient tool used in this repo
 note: you can find all working color schemes for the fadet function at https://github.com/venaxyt/fade
