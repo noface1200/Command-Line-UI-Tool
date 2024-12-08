@@ -1,5 +1,5 @@
 from tabulate import tabulate
-import clui.utils.fade as fade
+import clui.utils.fade as fade_lib
 import pyfiglet, os
     
 def clear():
@@ -19,7 +19,7 @@ def ascii(text, font='slant'):
     return ascii_art
     
 def fade(text, fadetype="blackwhite"):
-    fade_method = getattr(fade, fadetype, fade.blackwhite)
+    fade_method = getattr(fade_lib, fadetype, fade_lib.blackwhite)
     return fade_method(text)
     
 def align(text, space):
