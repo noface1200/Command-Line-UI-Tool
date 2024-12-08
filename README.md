@@ -25,9 +25,9 @@ for more fonts for the ascii function use:
 print(cli.ascii_fonts)
 ```
 
-The fadet function allows you to apply a fade effect to your text, enhancing its visual appeal. You can choose from various fade types.
+The fade function allows you to apply a fade effect to your text, enhancing its visual appeal. You can choose from various fade types.
 ```
-faded_text = cli.fadet("Hello, fading world!", fadetype="purplepink")
+faded_text = cli.fade("Hello, fading world!", fadetype="purplepink")
 print(faded_text)
 ```
 
@@ -53,11 +53,11 @@ cli.clear_console()
 # Create fire-faded ASCII art with the "blood" font
 text = "Hello world"
 ascii_art = cli.ascii(text, font='bloody')
-faded_ascii_art = cli.fadet(ascii_art, fadetype='purplepink')
+faded_ascii_art = cli.fade(ascii_art, fadetype='purplepink')
 
 # Print the result
 print(faded_ascii_art)
 ```
 
 credits to venaxyt for creating fade. the color gradient tool used in this repo
-note: you can find all working color schemes for the fadet function at https://github.com/venaxyt/fade
+note: you can find all working color schemes for the fade function at https://github.com/venaxyt/fade
