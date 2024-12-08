@@ -2,7 +2,7 @@ from tabulate import tabulate
 import clui.utils.fade as fade
 import pyfiglet, os
     
-def clear_console():
+def clear():
     if os.name == 'nt':
         os.system('cls')
     else:
@@ -18,7 +18,7 @@ def ascii(text, font='slant'):
     ascii_art = pyfiglet.figlet_format(text, font=font)
     return ascii_art
     
-def fadet(text, fadetype="blackwhite"):
+def fade(text, fadetype="blackwhite"):
     fade_method = getattr(fade, fadetype, fade.blackwhite)
     return fade_method(text)
     
