@@ -21,7 +21,3 @@ def ascii(text, font='slant'):
 def fade(text, fadetype="blackwhite"):
     fade_method = getattr(fade_lib, fadetype, fade_lib.blackwhite)
     return fade_method(text)
-    
-def align(text, space):
-    for line in text.splitlines():
-        print(' ' * space + line)
