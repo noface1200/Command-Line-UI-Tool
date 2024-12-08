@@ -2,7 +2,7 @@ from tabulate import tabulate
 import clui.utils.fade as fade_lib
 import pyfiglet, os
     
-def clear():
+def clear_console():
     if os.name == 'nt':
         os.system('cls')
     else:
