@@ -47,7 +47,7 @@ heres a good example on how these mix to create good looking ui elements for the
 ```
 import clui.index as clui
 
-# Clear the console (optional)
+# Clear the console
 clui.clear_console()
 
 # Create fire-faded ASCII art with the "blood" font
